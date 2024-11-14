@@ -22,7 +22,7 @@ The platform is architected to be close enough to existing cloud standards, enab
 ## 🛠️ Platform Components
 
 - **[GraftNode](https://github.com/plantarium-platform/graftnode-go)**: The component responsible for keeping zero instances of a service until client requests are received. When a request arrives, GraftNode quickly starts the real service instance. **[Status: POC done]**  
-- **[SproutScaler](https://github.com/plantarium-platform/sproutscaler-go)**: An aggressive auto-scaler that adds or removes leaf instances based on real-time performance data. **[Status: POC In Progress]**
+- **[SproutScaler](https://github.com/plantarium-platform/sproutscaler-go)**: An aggressive auto-scaler that adds or removes leaf instances based on real-time performance data. **[Status: POC Done]**
 - **Planter**: The component that handles service deployments, configuration, and auto-scaling setup. **[Status: Not Started]**
 - **SeedVault**: The secure configuration management component, akin to a key vault, for handling secrets and sensitive data. **[Status: Not Started]**
 - **LeafRegistry**: The service registry component that tracks leaf instances, integrated with the auto-scaler for efficient resource management. **[Status: Not Started]**
