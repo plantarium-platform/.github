@@ -24,9 +24,8 @@ The platform is architected to be close enough to existing cloud standards, enab
 - **[GraftNode](https://github.com/plantarium-platform/graftnode-go)**: The component responsible for keeping zero instances of a service until client requests are received. When a request arrives, GraftNode quickly starts the real service instance. **[Status: POC done]**  
 - **[SproutScaler](https://github.com/plantarium-platform/sproutscaler-go)**: An aggressive auto-scaler that adds or removes leaf instances based on real-time performance data. **[Status: POC Done]**
 - **[Herbarium](https://github.com/plantarium-platform/herbarium-go)**: The service registry component that tracks Stems and Leafs, manage their state integrated with the auto-scaler for efficient resource management. **[Status: In Progress]**
-- **Planter**: The component that handles service deployments, configuration, and auto-scaling setup. **[Status: Not Started]**
+- **[Planter](https://github.com/plantarium-platform/planter-go)**: The component that handles service deployments via CLI **[Status: Designing]**
 - **SeedVault**: The secure configuration management component, akin to a key vault, for handling secrets and sensitive data. **[Status: Not Started]**
-
 - **GardenPanel**: A web-based admin panel for monitoring and managing leafs, observing how many instances are active and their states. **[Status: Not Started]**
 
 ## 📜 License
